@@ -49,7 +49,7 @@ class PatchingDockable(ida_kernwin.PluginForm):
         self._edit_timer.stop()
         self._edit_timer = None
         self._code_view = None
-        self.controller.view = None
+        # self.controller.view = None
         return super().OnClose(form)
 
     #--------------------------------------------------------------------------
